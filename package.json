@@ -1,7 +1,7 @@
 {
   "name": "invitacion-boda",
   "version": "0.0.0",
-  "homepage": "https://xdennizhu20x.github.io/invitacion_boda/build",
+  "homepage": "https://xdennizhu20x.github.io/boda/build",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -38,6 +38,7 @@
     "@angular/compiler-cli": "^16.2.0",
     "@types/aos": "^3.0.7",
     "@types/jasmine": "~4.3.0",
+    "angular-cli-ghpages": "^2.0.1",
     "autoprefixer": "^10.4.19",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
