@@ -14,8 +14,8 @@
           
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/invitacion-boda",
-            "baseHref": "/invitacion_boda/",
+            "outputPath": "dist/boda",
+            "baseHref": "/boda/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
