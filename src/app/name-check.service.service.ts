@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class NameCheckService {
   private allowedNames: string[] = 
-  ['J261024L'];
+  ['MM211224'];
 
   constructor() { }
 

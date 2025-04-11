@@ -33,10 +33,7 @@ export class CalendarioComponent {
             <label for="no" class="ml-2 block text-sm font-medium text-gray-700">No</label>
           </div>
         </div>
-        <div class="mb-4 flex flex-col justify-center items-center">
-          <label for="attendees" class="block text-sm font-medium text-gray-700">Número de asistentes:</label>
-          <input id="attendees" class="swal2-input mt-1 block w-[90%] border border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm" type="number" min="0">
-        </div>
+
       `,
       showDenyButton: true,
       denyButtonText: 'No guardar',
@@ -56,12 +53,12 @@ export class CalendarioComponent {
         const firstName = (document.getElementById('first-name') as HTMLInputElement).value;
         const lastName = (document.getElementById('last-name') as HTMLInputElement).value;
         const attendance = (document.querySelector('input[name="attendance"]:checked') as HTMLInputElement)?.value;
-        const attendees = (document.getElementById('attendees') as HTMLInputElement).value;
         
-        if (!firstName || !lastName || !attendance || !attendees) {
+        if (!firstName || !lastName || !attendance ) {
           Swal.showValidationMessage('Por favor complete todos los campos');
           return false;
         }
+        const attendees = 1;
         
         return { firstName, lastName, attendance, attendees };
       }

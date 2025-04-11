@@ -25,7 +25,7 @@ export class ContadorComponent {
   ngOnInit() {
     this.clock = this.source.subscribe(t => {
       this.now = new Date();
-      this.end = new Date(2024, 9, 26, 0, 0, 0); // Mes 7 representa agosto (0 es enero, 11 es diciembre)
+      this.end = new Date(2024, 11, 21, 0, 0, 0); // Mes 7 representa agosto (0 es enero, 11 es diciembre)
       this.showDate();
     });
   }

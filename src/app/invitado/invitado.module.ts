@@ -2,10 +2,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InvitadoComponent } from './invitado.component';
+import { RecepcionModule } from '../recepcion/recepcion.module';
 
 @NgModule({
   declarations: [InvitadoComponent],
-  imports: [CommonModule],
+  imports: [CommonModule,
+    RecepcionModule
+  ],
   exports: [InvitadoComponent]
 })
 export class InvitadoModule { }
